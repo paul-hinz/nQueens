@@ -11,7 +11,7 @@ public class RandomRestarter {
     while (calculateFitness(currentState) != maximumFitness()) {
       hc.consecutiveSidewaysMoves = 0;
       nextState = generateRandomState();
-      while (calculateFitness(currentState) != maximumFitness() && hc.consecutiveSidewaysMoves < 5 && nextState != currentState) {
+      while (calculateFitness(currentState) != maximumFitness() && hc.consecutiveSidewaysMoves < 100 && nextState != currentState) {
         currentState = nextState;
         nextState = hc.findNextSidewaysLimit(currentState);
       }
