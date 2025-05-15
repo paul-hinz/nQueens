@@ -2,4 +2,4 @@
 
 ## This tries to combine the advantages of hillclimbing with genetic search
 
-![alt text](https://github.com/paul-hinz/nQueens/algorithm.png) "algorithm")
+![alt text](algorithm.png) "algorithm")
